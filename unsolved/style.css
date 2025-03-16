@@ -131,3 +131,34 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+@media  screen and (max-width: 500px) {
+  main > article, nav {
+    flex-direction: column;
+    text-align: center;
+    margin-right: auto;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    text-align: center;
+  }
+
+  main article {
+    padding: 15px;
+    text-align: left;
+  }
+
+  main > article img {
+    float: none;
+    display: table;
+    margin: 0 auto;
+  }
+
+  main > section, main > article {
+    margin-bottom: auto;
+  }
+  
+}
